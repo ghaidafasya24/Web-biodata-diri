@@ -1,0 +1,319 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu ul li{
+    padding: 2em;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+
+
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-color: #16213E;
+    /* background-image: url('https://images.pexels.com/photos/5366526/pexels-photo-5366526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr='); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    /* background: linear-gradient(to bottom, black, transparent); */
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.judul1{
+    align-items: center;
+    font-size: 3em;
+    color: black;
+    font-family: cursive;
+}
+
+.judul1 p{
+    font-size: 30px;
+}
+
+.judul2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+    width: 75%;
+    padding-bottom: 4em;
+    padding-right: 1.5em;
+    font-size: 20px;
+    
+}
+
+.judul2:before{
+    content: '';
+    position: absolute;
+    bottom: -67px;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to top, #16213E, transparent);
+    right: 0px;
+}
+
+.judul3:after{
+    content: '';
+    position: absolute;
+    bottom: -852px;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, #16213E, transparent);
+    right: 0px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 35px;
+    border-radius: 60px;
+    padding: 5px 30px 5px 30px;
+    font-size: 30px;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: white;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.deskripsi1{
+    display: flex;
+    width: 100%;
+}
+
+.gambar1{
+    width: 30%;
+}
+
+.gambar1 img{
+    width: 80%;
+    border-radius: 100%;
+}
+
+.datadiri{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.datadiri h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.datadiri ul{
+    list-style-type: none;
+}
+
+.judul3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url('https://images.pexels.com/photos/34107/milky-way-stars-night-sky.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.deskripsi3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riwayatpendidikan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-shadow: 1px 5px 5px rgba(37,32,32,0.82);
+}
+
+/* .tengah{
+    text-align: center;
+    width: 100%; */
+    /* background-color: cyan; */
+    /* background-image: url('landscape2.jpg'); */
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+} */
+
+/* .tengah:after{
+    content: '';
+    position: absolute;
+    bottom: -820px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, blue, transparent);
+    right: 0px;
+} */
+
+.pendidikan{
+    width: 40%;
+    margin: 15 auto;
+}
+
+.pendidikan img{
+    width: 50%;
+}
+
+.deskripsi2{
+    display: flex;
+}
+
+.about1{
+    width: 50%;
+    /* height: 6em; */
+    /* padding-bottom: em; */
+}
+
+.about1 p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2em 3em;
+    align-items: center;
+    text-align: justify;
+}
+
+/* p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+} */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 17vh;
+}
+
+.hubungi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.judul5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: .5em;
+}
+
+.kontak a{
+    padding: .2em .2em;
+    font-size: 30px;
+    color: white;
+}
